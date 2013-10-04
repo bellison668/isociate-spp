@@ -17,21 +17,23 @@
 #   end
 # end
 
-module Isociate::Spp
-  class << self
-    attr_accessor :configuration
-  end
+module Isociate
+  module Spp
+    class << self
+      attr_accessor :configuration
+    end
 
-  def self.configure
-    self.configuration ||= Configuration.new
-    yield(configuration)
-  end
+    def self.configure
+      self.configuration ||= Configuration.new
+      yield(configuration)
+    end
 
-  class Configuration
-    attr_accessor :certificate_path, :certificate_password
+    class Configuration
+      attr_accessor :certificate_path, :certificate_password
 
-    def intialize
+      def intialize
 
+      end
     end
   end
 end
