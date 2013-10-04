@@ -10,4 +10,5 @@ group :test do
   require 'rbconfig'
   gem 'wdm', '>= 0.1.0' if RbConfig::CONFIG['target_os'] =~ /mswin|mingw/i
   gem 'guard-rspec'
+  gem 'ruby_gntp'
 end
