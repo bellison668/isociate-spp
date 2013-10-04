@@ -3,6 +3,7 @@ ruby '1.9.3'
 
 gem 'rake'
 gem 'savon', '~> 2.0'
+gem 'activesupport'
 
 group :test do
   gem 'rspec'
