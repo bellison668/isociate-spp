@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AuctionTCRs xmlns="http://tcr.southwestpowerpool.org/download/xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="PrivateBidsAndOffers_2_0.xsd">
+<AuctionTCR>
+	<bidID>16225</bidID>
+	<tcrID>14440</tcrID>
+	<description></description>
+	<category>PTP</category>
+	<portfolio>TESTAO April Portfolio Round 1</portfolio>
+	<assetOwner>TESTAO</assetOwner>
+	<source>TESTSOURCE</source>
+	<sink>TESTSINK</sink>
+	<startDate>04/01/2013</startDate>
+	<endDate>04/30/2013</endDate>
+	<hedgeType>OBL</hedgeType>
+	<type>BUY</type>
+	<class>OFF</class>
+	<round>Round 1</round>
+	<awardedMW>244.3</awardedMW>
+	<clearingPrice>357.65</clearingPrice>
+	<bidCurve>
+	 <bidPoint>
+		<MW>0</MW>
+		<pricePerMW>581</pricePerMW>
+	 </bidPoint>
+	 <bidPoint>
+		<MW>50</MW>
+		<pricePerMW>550</pricePerMW>
+	 </bidPoint>
+	 <bidPoint>
+		<MW>100</MW>
+		<pricePerMW>500</pricePerMW>
+	 </bidPoint>
+	 <bidPoint>
+		<MW>150</MW>
+		<pricePerMW>450</pricePerMW>
+	 </bidPoint>
+	 <bidPoint>
+		<MW>200</MW>
+		<pricePerMW>400</pricePerMW>
+	 </bidPoint>
+	 <bidPoint>
+		<MW>252.4</MW>
+		<pricePerMW>350</pricePerMW>
+	 </bidPoint>
+	</bidCurve>
+</AuctionTCR>
+</AuctionTCRs>
